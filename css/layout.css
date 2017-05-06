@@ -1,83 +1,73 @@
-/*	Development/layout aid.*/
+/*  Development/layout aid.*/
 
 /*div {
-	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;
+  border: 1px solid rgba(255,0,0,0.15) !important;
+  background: rgba(255,0,0,0.05) !important;
 }*/
 
-
-/*	Generally, you will only want one container element in
-	the document, wrapping around the main content area. */
-
 .container {
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	width: 100%;
-	padding: 0px;
-	border-bottom: 1px solid rgba(255,255,255,1);
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 100%;
+  padding: 0px;
+  border-bottom: 1px solid rgba(255,255,255,1);
 }
 
-/*Navigation*/
+/* Navigation */
 
 nav.main {
   position: fixed;
   width: 100%;
-	padding-left: 20px;
-	z-index: 1;
-	top: 0px;
-	left: 0px;
-	color: rgba(255,255,255,1);
-	display: inline-block;
-	transition: background-color 0.25s ease-in-out;
+  padding-left: 20px;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  color: rgba(255,255,255,1);
+  display: inline-block;
+  transition: background-color 0.25s ease-in-out;
 }
 
 nav.sub {
-	position: fixed;
-	width: 100%;
-	padding-left: 20px;
-	z-index: 1;
-	top: 0px;
-	left: 0px;
-	color: rgba(30,30,30,1);
-	display: inline-block;
-	background-color: white;
+  position: fixed;
+  width: 100%;
+  padding-left: 20px;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  color: rgba(30,30,30,1);
+  display: inline-block;
+  background-color: white;
 }
 
 nav.scroll {
-	background-color: black;
+  background-color: black;
 }
 
-/* UI Elements */
 
-.menu-scroll::-webkit-scrollbar {
-  width: 50px;
-  height: 8px;
-  background-color: rgba(223,223,223,0);
-}
 
-.menu-scroll::-webkit-scrollbar-thumb {
-  background-color: rgba(200,200,200,0);
-  border-radius: 1px;
-}
-
-/*Content*/
+/* Basic Objects */
 
 .overlay {
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 40px;
-	padding-left: 40px;
-	max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+  max-width: 800px;
+}
+
+.full-block {
+  width: 100%;
+  height: 100%;
 }
 
 .block {
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 40px;
-	padding-left: 40px;
-	max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+  max-width: 800px;
 }
 
 .block-alt {
@@ -94,108 +84,6 @@ block-invisible {
   max-width: 800px;
 }
 
-.full-block {
-  width: 100%;
-  height: 100%;
-}
-
-.bio {
-  background-color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  text-align: left;
-}
-
-.menu {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  overflow-x: scroll;
-}
-
-.menu-heading {
-  background-color: none;
-  position: absolute;
-  padding-top: 8px;
-  padding-left: 20px;
-}
-
-.panel-menu-heading {
-  text-align: left;
-  background-color: none;
-  padding-top: 2px;
-  padding-left: 28px;
-}
-
-.item-stack {
-  float: left;
-  width: 1400px;
-}
-
-.menu-item-invisible {
-  width: 300px;
-  height: 160px;
-  float:left;
-  background-color: rgba(255,255,255,1);
-  margin-right: 40px;
-}
-
-.panel-menu-item-invisible {
-  width: 50px;
-  height: 50px;
-  float:left;
-  margin-right: -16px;
-  background-color: rgba(210,210,210,1);
-  padding: 5px;
-  transition: background-color 0.25s ease-in-out;
-  border-radius: 8px;
-}
-
-.panel-menu-stack {
-  padding-bottom: 8px;
-}
-
-.panel-menu-item-invisible:hover {
-  background-color: rgba(230,230,230,1);
-}
-
-.panel-menu-item-text {
-  font-size: 8px;
-}
-
-.menu-item-text {
-  float: left;
-  max-width: 200px;
-  margin-left: 0px;
-  padding-left: 20px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.start {
-  margin-left: 20px;
-}
-
-.left {
-  margin-left: auto;
-  margin-right: aut;
-}
-
-.right {
-  margin-right: auto;
-}
-
-.light {
-  background-color: rgba(238,238,238,1);
-}
-
-.grey {
-	background-color: rgba(230,230,230,1);
-}
-
-.dark {
-  background-color: rgba(210,210,210,1);
-}
-
 .sub-block-left {
   float: left;
   margin-right: 30px;
@@ -207,6 +95,26 @@ block-invisible {
   margin-right: auto;
 }
 
+.section-heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* Basic Properties */
+
+.light {
+  background-color: rgba(238,238,238,1);
+}
+
+.grey {
+  background-color: rgba(230,230,230,1);
+}
+
+.dark {
+  background-color: rgba(210,210,210,1);
+}
+
 .top {
   margin-top: 80px;
 }
@@ -214,6 +122,23 @@ block-invisible {
 .bottom {
   margin-bottom: 80px;
 }
+
+.start {
+  margin-left: 20px;
+}
+
+.left {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  margin-right: auto;
+}
+
+
+
+/* Index Objects */
 
 .index {
   margin-top: -20px;
@@ -228,6 +153,12 @@ block-invisible {
 .index-title {
   padding-top: 10px;
   text-align: left;
+}
+
+.index-heading {
+  padding-top: 20px;
+  background-color: none;
+  text-align: center;
 }
 
 .index-item-invisible {
@@ -255,27 +186,18 @@ block-invisible {
   text-align: center;
 }
 
-.index-heading {
-	padding-top: 20px;
-  background-color: none;
-  text-align: center;
-}
 
-.panel-menu {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  background-color: rgba(210,210,210,1);
-}
+
+/* Panel Objects */
 
 .panel-title {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0px;
-	margin-top: -30px;
-	margin-bottom: 0;
-	text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  margin-top: -30px;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .panel-item {
@@ -287,17 +209,111 @@ block-invisible {
 
 .panel-item-text {
   padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: left;
   float: left;
   max-width: 400px;
 }
 
-.section-heading {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: center;
+
+
+/* Speaker Object Menus */
+
+.speaker-menu {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  overflow-x: scroll;
+}
+
+.speaker-menu-heading {
+  background-color: none;
+  position: absolute;
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+.speaker-menu-item-stack {
+  float: left;
+  width: 1400px;
+}
+
+.speaker-menu-item-invisible {
+  width: 300px;
+  height: 160px;
+  float:left;
+  background-color: rgba(255,255,255,1);
+  margin-right: 40px;
+}
+
+.speaker-menu-item-text {
+  float: left;
+  max-width: 200px;
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.menu-scroll::-webkit-scrollbar {
+  width: 50px;
+  height: 8px;
+  background-color: rgba(223,223,223,0);
+}
+
+.menu-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(200,200,200,0);
+  border-radius: 1px;
+}
+
+
+
+/* Panel Object Menus */
+
+.panel-menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: rgba(210,210,210,1);
+}
+
+.panel-menu-heading {
+  text-align: left;
+  background-color: none;
+  padding-top: 2px;
+  padding-left: 28px;
+}
+
+.panel-menu-stack {
+  padding-bottom: 8px;
+}
+
+.panel-menu-item-invisible {
+  width: 50px;
+  height: 50px;
+  float:left;
+  margin-right: -16px;
+  background-color: rgba(210,210,210,1);
+  padding: 5px;
+  transition: background-color 0.25s ease-in-out;
+  border-radius: 8px;
+}
+
+.panel-menu-item-invisible:hover {
+  background-color: rgba(230,230,230,1);
+}
+
+.panel-menu-item-text {
+  font-size: 8px;
+}
+
+
+
+.bio {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: left;
 }
 
 img {
@@ -343,36 +359,37 @@ img.panel-full {
   padding: 0px;
 }
 
-/*Footer*/
 
-.footerstyle {
-  padding-top: 14px;
-}
 
-/*Other*/
+/* Other */
 
 .hero {
-	right: 0;
-	left: 0;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 100%;
-	height: 75%;
-	background-image: url('../img/bg_hero.png');
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: 1920px auto;
-	opacity: 1;
-	padding-top: 8px;
-	padding-bottom: 150px;
+  right: 0;
+  left: 0;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 75%;
+  background-image: url('../img/bg_hero.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+  opacity: 1;
+  padding-top: 8px;
+  padding-bottom: 150px;
 }
 
 .menu-button {
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 0px;
-	padding-bottom: 30px;
-	text-align: center;
-	background-color: rgba(210,210,210,1);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: rgba(210,210,210,1);
+}
+
+
+.footer {
+  padding-top: 14px;
 }
