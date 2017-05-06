@@ -1,0 +1,16 @@
+@-webkit-keyframes fade-in{
+		from{
+				opacity:0;
+				top:10px;
+		}
+		to{
+				opacity:1;
+				top:0px;
+		}
+}
+
+.fade-in {
+		position:relative;
+		top:0px;
+		-webkit-animation:fade-in 0.75s 1;
+}

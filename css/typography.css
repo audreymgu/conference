@@ -1,0 +1,194 @@
+
+body {
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: rgba(30,30,30,1);
+}
+
+h1 {
+	font-family: "Sofia Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+	text-decoration: none;
+}
+
+/*Navigation*/
+
+h1.sitename {
+  float: left;
+  margin-top: 16px;
+  margin-right: .5em;
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: -0.025em;
+}
+
+.navstyle {
+  background-color: transparent;
+	float: left;
+	font-weight: 600;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	border-radius: 10px;
+	transition: background-color 0.25s ease-in-out;
+}
+
+p.main:hover {
+	color: rgba(50,50,50,1);
+	background-color: white;
+}
+
+p.sub:hover {
+	color: white;
+  	background-color: rgba(50,50,50,1);
+}
+
+/*Landing*/
+
+p.herocap {
+	font-size: 80px;
+	font-weight: 500;
+	max-width: 50%;
+	line-height: 1.2em;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	color: rgba(255,255,255,1);
+}
+
+a.button {
+	font-size: 20px;
+	font-weight: 600;
+	background-color: rgba(255,255,255,1);
+	padding: 15px 30px 15px 30px;
+	border-radius: 25px;
+	transition: background-color 0.25s ease-in-out;
+}
+
+a.button:hover {
+  color: white;
+	background-color: rgba(30,30,30,1);
+}
+
+a.menu {
+	padding: 10px 20px 10px 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/*Content*/
+
+h1.hook {
+  font-weight: 900;
+	max-width: 200px;
+	line-height: 1.2em;
+  text-transform: uppercase;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid rgba(50,50,50,1);
+}
+
+h1.menuheading {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+h1.itemtitle {
+	font-weight: 600;
+	line-height: 1.2em;
+}
+
+h1.indexheading {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+h1.paneltitle {
+	color: black;
+	text-transform: lowercase;
+	font-size: 50px;
+	font-weight: 400;
+	transition: font-size 0.25s ease-in-out, background 0.25s ease-in-out;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: url('../img/bg_white.jpg');
+	border-radius: 20px;
+	line-height: 60px;
+	display: block;
+}
+
+h1.paneltitle:hover {
+	color: white;
+	font-size: 60px;
+	background: url('../img/bg_hero.png')
+}
+
+h2.sectionheading {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+h1.indextitle {
+	font-size: 50px;
+}
+
+h1.indexitemtitle {
+  font-size: 16px;
+	font-weight: 500;
+	line-height: 1.0em;
+}
+
+p.indexitemcap {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: -1em;
+	margin-top: -8px;
+}
+
+p.hookcap {
+	max-width: 500px;
+	line-height: 1.8em;
+	color: rgba(150,150,150,1);
+}
+
+p.spkname {
+	line-height: normal;
+}
+
+p.panelcap {
+	max-width: 500px;
+	line-height: 1.8em;
+	color: rgba(150,150,150,1);
+}
+
+h1.spk {
+	margin-left: -4px;
+	font-weight: 500;
+	max-width: 500px;
+	font-size: 60px;
+	padding: 0px;
+}
+
+p.spkhed {
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 0.1em;
+	border-bottom: 1px solid rgba(50,50,50,1);
+	max-width: 85px;
+}
+
+p.spkcap {
+	max-width: 350px;
+	line-height: 1.8em;
+	color: rgba(150,150,150,1);
+}
