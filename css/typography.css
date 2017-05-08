@@ -1,14 +1,12 @@
-g
-
 body {
-	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5em;
 	color: rgba(30,30,30,1);
 }
 
 h1 {
-	font-family: "sofia-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Sofia Pro", "sofia-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
