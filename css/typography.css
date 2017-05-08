@@ -126,10 +126,22 @@ h1.paneltitle {
 	display: block;
 }
 
-h1.paneltitle:hover {
+#a:hover {
 	color: white;
 	font-size: 60px;
-	background: url('../img/bg_hero.png')
+	background: url('../img/mnu_a.jpg')
+}
+
+#b:hover {
+	color: white;
+	font-size: 60px;
+	background: url('../img/mnu_b.jpg')
+}
+
+#c:hover {
+	color: white;
+	font-size: 60px;
+	background: url('../img/mnu_c.jpg')
 }
 
 h2.sectionheading {
@@ -173,9 +185,10 @@ p.panelcap {
 h1.spk {
 	margin-left: -4px;
 	font-weight: 500;
-	max-width: 500px;
-	font-size: 60px;
+	max-width: 440px;
+	font-size: 50px;
 	padding: 0px;
+	line-height: 1.0em;
 }
 
 p.spkhed {
@@ -188,7 +201,7 @@ p.spkhed {
 }
 
 p.spkcap {
-	max-width: 350px;
+	max-width: 400px;
 	line-height: 1.8em;
 	color: rgba(150,150,150,1);
 }
