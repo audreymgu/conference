@@ -54,7 +54,7 @@ nav.scroll {
   margin-left: auto;
   padding-right: 40px;
   padding-left: 40px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .full-block {
@@ -398,5 +398,12 @@ img.panel-full {
 
 
 .footer {
-  padding-top: 14px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+.top-small {
+  margin-top: 5em;
+  margin-bottom: auto;
 }
