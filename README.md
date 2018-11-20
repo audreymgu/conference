@@ -3,7 +3,7 @@ A multi-part site designed to promote futureperfect, a hypothetical conference o
 
 The latest, live version of this site can be found at the github pages address associated with this repository:
 
-https://georgezgu.github.io/conference/
+https://audreymgu.github.io/conference/
 
 ## Overview
 The code here is representative of the most current working snapshot of the site's overall implementation, and does not include all features, integrations, and content that I intend to include in the final revision. It has been built for viewing on *desktop browser platforms* (specifically, Google Chrome) with viewport widths set to at least *900 points or higher.* While capable of handling widths of up to 1920 points, the site, while viewable on mobile devices, has not yet received specific CSS that optimizes the mobile experience.
@@ -11,7 +11,7 @@ The code here is representative of the most current working snapshot of the site
 The live version of this site features working typekit integration across all site pages. However, due to differences in available font weights (and thus their corresponding weight numbers, depending on whether a font is loaded through typekit or loaded locally) there are noticeable differences between text rendered exclusively via Typekit's web font system when compared to locally installed copies. Because typekit web fonts cannot be called from a local filesystem, web font display *has not been optimized*. For the purposes of assessing the visual design, the local versions of the website's fonts, Sofia Pro and Proxima Nova, should be installed.
 
 ## Credits
-A large portion of the text and image assets used on this site were neither created nor owned by me, and were used under fair use. Both asset types have received minor modifications in order to optimize website display. 
+A large portion of the text and image assets used on this site were neither created nor owned by me, and were used under fair use. Both asset types have received minor modifications in order to optimize website display.
 
 Links to resources used are provided below.
 
